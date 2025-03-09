@@ -5,3 +5,127 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header starts */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    width: 100%;
+}
+header h3{
+    display: inline-block;
+    position: relative;
+    right: 200px;
+}
+header nav{
+    position: relative;
+    bottom: 10px;
+}
+/*header ul{
+    display: inline-block;
+}*/
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    margin-left:35px;
+    padding: 10px;
+}
+/* header ends */
+
+/* section starts */
+section{
+    padding: 30px;
+}
+section h1{
+    font-family: serif;
+    font-size: 70px;
+    padding-left:25px;
+    color: cadetblue;
+}
+section p{
+    font-size: 20px;
+    padding-left:27px;
+    margin-top: 30px;
+}
+section img{
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: 630px;
+    bottom: 270px;
+}
+section button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 400px;
+    right: 427px;
+    border-radius: 5px;
+}
+/* section ends */
+
+header ul li a:hover{
+    background-color: cadetblue;
+    color: white;
+    transition: 0.7s;
+}
+button:hover{
+    background-color: #4834d4;
+    color: white;
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+p.trusted{
+    color:grey;
+    position: relative;
+    bottom: 400px;
+    left: 60px;
+}
+.i1 img{
+    display: inline-block;
+    width: 80px;
+    position: relative;
+    bottom: 400px;
+    left: 60px;
+}
+.i2 img{
+    display: inline-block;
+    width: 80px;
+    position: relative;
+    bottom: 420px;
+    left: 60px;
+}
+.i1 img[src= "./images/hubspot.png"]{
+    margin-left: 10px;
+}
+.i2 img[src= "./images/google.webp"]{
+    margin-left: 2px;
+    margin-bottom: 15px;
+}
+p.trusted{
+    margin-bottom: 10px;
+}
+header i.fa-l{
+    border:none;
+    border-radius: 100%;
+    background-color: cadetblue;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+}
