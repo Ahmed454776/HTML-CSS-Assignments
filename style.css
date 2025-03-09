@@ -7,5 +7,31 @@
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: coral;
+    background-color: #44bd32;
+}
+h1, h2{
+    text-align: center;
+    margin: 20px 0;
+}
+body ul li a{
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center;
+    position: relative;
+    left: 615px;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+}
+body ul li a:hover{
+    background-color: #1dd1a1;
+    color: #f1f1f1;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
 }
